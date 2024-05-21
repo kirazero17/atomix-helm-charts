@@ -4,6 +4,11 @@ SPDX-License-Identifier: Apache-2.0
 -->
 
 # atomix-helm-charts
-Helm charts for Atomix Cloud <br />
-Original chart: charts.atomix.io \
-Original Atomix GitHub publisher: https://github.com/atomix
+
+**Helm charts for Atomix Cloud** <br />
+
+## Original chart
+https://charts.atomix.io
+
+## Original Atomix GitHub publisher
+https://github.com/atomix
