@@ -1,0 +1,14 @@
+apiVersion: v2
+appVersion: v0.8.0
+description: The core Atomix runtime controller implements the Atomix Cloud runtime
+  API
+home: https://atomix.io
+keywords:
+- atomix
+kubeVersion: '>=1.17.0'
+maintainers:
+- email: jordan.halterman@intel.com
+  name: Jordan Halterman
+name: atomix-runtime-controller
+type: application
+version: 1.7.0

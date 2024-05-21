@@ -1,0 +1,14 @@
+apiVersion: v2
+appVersion: v1.0.0
+description: The core Atomix controller provides custom resources for Atomix data
+  stores
+home: https://atomix.io
+keywords:
+- atomix
+kubeVersion: '>=1.17.0'
+maintainers:
+- email: jordan.halterman@intel.com
+  name: Jordan Halterman
+name: atomix-controller
+type: application
+version: 1.0.0

@@ -1,0 +1,32 @@
+apiVersion: v2
+dependencies:
+- alias: controller
+  name: atomix-runtime-controller
+  repository: https://charts.atomix.io
+  version: 1.7.0
+- alias: consensus-controller
+  condition: storage.consensus.enabled
+  name: atomix-consensus-controller
+  repository: https://charts.atomix.io
+  version: 1.5.1
+- alias: shared-memory-controller
+  condition: storage.sharedMemory.enabled
+  name: atomix-shared-memory-controller
+  repository: https://charts.atomix.io
+  version: 1.0.0
+- alias: pod-memory-controller
+  condition: storage.podMemory.enabled
+  name: atomix-pod-memory-controller
+  repository: https://charts.atomix.io
+  version: 1.0.0
+description: Umbrella chart for deploying Atomix runtime controllers
+home: https://atomix.io
+keywords:
+- atomix
+kubeVersion: '>=1.17.0'
+maintainers:
+- email: jordan.halterman@intel.com
+  name: Jordan Halterman
+name: atomix-runtime
+type: application
+version: 0.2.0

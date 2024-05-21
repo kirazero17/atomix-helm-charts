@@ -1,0 +1,15 @@
+apiVersion: v2
+appVersion: v0.1.0
+description: The pod memory controller extends the Kubernetes API with custom resources
+  for pod-local shared memory stores.
+home: https://atomix.io
+keywords:
+- atomix
+- memory
+kubeVersion: '>=1.17.0'
+maintainers:
+- email: jordan.halterman@intel.com
+  name: Jordan Halterman
+name: atomix-pod-memory-controller
+type: application
+version: 1.0.0

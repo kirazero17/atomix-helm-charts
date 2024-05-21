@@ -1,0 +1,15 @@
+dependencies:
+- name: atomix-runtime-controller
+  repository: https://charts.atomix.io
+  version: 1.7.0
+- name: atomix-consensus-controller
+  repository: https://charts.atomix.io
+  version: 1.5.1
+- name: atomix-shared-memory-controller
+  repository: https://charts.atomix.io
+  version: 1.0.0
+- name: atomix-pod-memory-controller
+  repository: https://charts.atomix.io
+  version: 1.0.0
+digest: sha256:a4d81da042b8afd6e3c223f0365f79319fee80d9ff661d0a318ecfd99840b0b1
+generated: "2023-01-10T13:47:19.513829477Z"
